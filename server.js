@@ -5,6 +5,7 @@ const port = 3000;
 const app = express();
 app.use(express.json());
 app.use(function(req, res, next) {
+  res.statusCode = 200;
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",

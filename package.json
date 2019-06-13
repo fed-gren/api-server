@@ -1,12 +1,15 @@
 {
   "name": "api-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server"
+    "start": "node server"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
