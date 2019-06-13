@@ -7,10 +7,12 @@
     "start": "node server"
   },
   "devDependencies": {
-    "express": "^4.17.1",
     "nodemon": "^1.19.1"
   },
   "engines": {
     "node": "10.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
